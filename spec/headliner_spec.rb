@@ -3,13 +3,13 @@ require File.dirname(__FILE__) + '/spec_helper'
 describe "Headliner" do
   
   before(:each) do
-    @view = ActionView::Base.new
+    @view = ::ActionView::Base.new
   end
   
   describe "loading plugin" do
     
     it "should be mixed into ActionView::Base" do
-      ActionView::Base.included_modules.include?(Headliner).should be_true
+      ::ActionView::Base.included_modules.include?(Headliner).should be_true
     end
   
     it "should respond to 'title' helper" do

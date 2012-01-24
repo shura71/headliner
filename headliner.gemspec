@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "headliner"
-  s.version = "0.1.2"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Patrick Crowley", "Alexander Shcherban"]
@@ -23,11 +23,13 @@ Gem::Specification.new do |s|
     "headliner.gemspec",
     "init.rb",
     "lib/headliner.rb",
-    "pkg/headliner-0.1.1.gem",
+    "lib/headliner/action_view.rb",
+    "lib/headliner/railtie.rb",
+    "lib/headliner/version.rb",
     "spec/headliner_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "http://github.com/shura71/headliner"
+  s.homepage = "https://github.com/shura71/headliner"
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.15"
   s.summary = "Assign and format page titles from your views."

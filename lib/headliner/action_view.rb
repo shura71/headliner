@@ -68,4 +68,3 @@ module Headliner
     alias pt title
   end
 end
-

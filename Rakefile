@@ -1,6 +1,6 @@
 require 'rake'
 require 'rdoc/task'
-require File.join(File.dirname(__FILE__), 'lib', 'headliner')
+require File.join(File.dirname(__FILE__), 'lib', 'headliner', 'version')
 
 require 'rspec/core'
 require 'rspec/core/rake_task'
