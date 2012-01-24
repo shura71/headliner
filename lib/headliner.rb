@@ -1,4 +1,5 @@
 module Headliner
+  VERSION = "0.1.1".freeze
   
   def title(options, headline='')
     if options.is_a? String
@@ -65,6 +66,6 @@ module Headliner
   end
 
   # Mr. T says, "Use my method, fool!"
-  alias t title
+  alias pt title
 
 end

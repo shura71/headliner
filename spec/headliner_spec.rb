@@ -64,7 +64,6 @@ describe "Headliner" do
       save_basic_title
       @view.title(:site => "Apple", :separator => "-").should eql("<title>Apple - iPhone</title>")
       @view.title(:site => "Apple", :separator => ":").should eql("<title>Apple : iPhone</title>")
-      @view.title(:site => "Apple", :separator => "&mdash;").should eql("<title>Apple &mdash; iPhone</title>")
     end
     
     it "should use custom prefix and suffix if available" do
