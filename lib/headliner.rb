@@ -1,5 +1,5 @@
 module Headliner
-  VERSION = "0.1.1".freeze
+  VERSION = "0.1.2".freeze
   
   def title(options, headline='')
     if options.is_a? String

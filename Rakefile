@@ -30,7 +30,7 @@ begin
     gemspec.description = "Assign and format page titles from your views"
     gemspec.email = "shura.71@gmail.com"
     gemspec.homepage = "http://github.com/shura71/headliner"
-    gemspec.authors = ["Alexander Shcherban"]
+    gemspec.authors = ["Patrick Crowley","Alexander Shcherban"]
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
