@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Patrick Crowley","Alexander Shcherban"]
+  s.authors = ["Patrick Crowley", "Alexander Shcherban"]
   s.date = "2012-01-24"
   s.description = "Assign and format page titles from your views"
   s.email = "shura.71@gmail.com"
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "headliner.gemspec",
     "init.rb",
     "lib/headliner.rb",
+    "pkg/headliner-0.1.1.gem",
     "spec/headliner_spec.rb",
     "spec/spec_helper.rb"
   ]
