@@ -3,7 +3,7 @@ require 'headliner'
 
 module Headliner
   class Railtie < Rails::Railtie
-      initializer "headliner/action_view" do
+      config.before_configuration do
       	 ::ActionView::Base.send(:include, Headliner::ActionView)
       end
   end
